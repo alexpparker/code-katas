@@ -1,1 +1,1 @@
-# cote-katas
+# code-katas
