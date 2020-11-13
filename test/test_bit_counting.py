@@ -1,4 +1,4 @@
-"""Tests for find bit counting code kata"""
+"""Tests for bit counting code kata"""
 import pytest
 
 PARAMS_TABLE = [
@@ -12,6 +12,6 @@ PARAMS_TABLE = [
 
 @pytest.mark.parametrize("number, result", PARAMS_TABLE)
 def test_bit_counting(number, result):
-    """Testing find the bit counting kata"""
+    """Testing bit counting kata"""
     from bit_counting import count_bits
     assert count_bits(number) == result
